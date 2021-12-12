@@ -1,0 +1,25 @@
+
+.main-heading{
+    background-color: lightskyblue;
+    padding: 20px;
+    font-weight: 900;
+}
+
+.employee-card {
+    box-shadow: 6px 6px 6px lightblue;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.card-body {
+    background-color: rgb(233, 232, 232);
+}   
+
+.card-title{
+    text-align: center;
+}
+
+.card-head{
+   background-color:#4da1fb;
+}
