@@ -1,51 +1,38 @@
 const Employee = require("../lib/Employee");
 
-test("Can create an new employee.", () => {
-    const employeeInstance = new Employee();
-    expect(typeof(employeeInstance)).toBe("object");
-})
-
-test("Testing name.", () => {
-    const name = "James";
+test("Testing employee name.", () => {
+    const name = "Nadia Alamgir";
     const employeeInstance = new Employee(name);
     expect(employeeInstance.name).toBe(name);
 })
 
-test("Testing ID.", () => {
+test("Test to check can create an new employee.", () => {
+    const employeeInstance = new Employee();
+    expect(typeof(employeeInstance)).toBe("object");
+})
+
+test("Testing Employee ID.", () => {
     const id = 2;
-    const employeeInstance = new Employee("James", id);
+    const employeeInstance = new Employee("Nadia Alamgir", id);
     expect(employeeInstance.id).toBe(id);
 })
 
-test("Testing email.", () => {
-    const email = "jamesljenks@gmail.com";
-    const employeeInstance = new Employee("James", 2, email);
+test("Testing employee email.", () => {
+    const email = "nadia.alamgir@gmail.com";
+    const employeeInstance = new Employee("Nadia Alamgir", 2, email);
     expect(employeeInstance.email).toBe(email);
 })
 
 
-
-test("Gets name through getEmployeeName method.", () => {
-    const testName = "James";
-    const employeeInstance = new Employee(testName);
-    expect(employeeInstance.getEmployeeName()).toBe(testName);
-})
-
-test("Can test ID through getID method.", () => {
-    const testID = 2;
-    const employeeInstance = new Employee("James", testID);
-    expect(employeeInstance.getEmployeeId()).toBe(testID);
-})
-
-test("Can test email through getEmployeeEmail method.", () => {
-    const testEmail = "jamesljenks@gmail.com";
-    const employeeInstance = new Employee("James", 2, testEmail);
+test("testing email through getEmployeeEmail method.", () => {
+    const testEmail = "nadia.alamgir@gmail.com";
+    const employeeInstance = new Employee("Nadia Alamgir", 2, testEmail);
     expect(employeeInstance.getEmployeeEmail()).toBe(testEmail);
 })
 
 test("Testing role.", () => {
     const returnValue = "Employee";
-    const employeeInstance = new Employee("James", 2, "jamesljenks@gmail.com");
+    const employeeInstance = new Employee("Nadia Alamgir", 2, "nadia.alamgir@gmail.com");
     expect(employeeInstance.getDesignation()).toBe(returnValue);
 })
 
