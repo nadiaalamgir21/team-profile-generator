@@ -15,7 +15,7 @@ Team profile generator app takes the inputs from the user and genrate different 
 * jest
 
 ## Walkthrough Clip:
-https://github.com/nadiaalamgir21/team-profile-generator/blob/main/assets/project-walkthrough-clip.mp4
+<iframe width="800" height="600" src="https://www.youtube.com/embed/2nxI4V2uZYU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Steps to install the project
 1. Clone the repo on your system.
